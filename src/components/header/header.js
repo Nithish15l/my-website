@@ -7,7 +7,7 @@ import LogoDark from 'assets/logo.svg';
 import MobileDrawer from './mobile-drawer';
 import menuItems from './header.data';
 
-export default function Header({ className }) {
+export default function Header({ className })  {
   return (
       <header sx={styles.header} className={className} id="header">
         <Container sx={styles.Container}>
