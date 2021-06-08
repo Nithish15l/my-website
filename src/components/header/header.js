@@ -18,6 +18,7 @@ export default function Header({ className })  {
               activeClass="active"
               to={menuItem.path}
               spy={true}
+              smooth={true}
               offset={-70}
               duration={500}
               key={i}
